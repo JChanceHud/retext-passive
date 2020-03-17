@@ -5,7 +5,7 @@ var search = require('nlcst-search')
 var toString = require('nlcst-to-string')
 var position = require('unist-util-position')
 var findBefore = require('unist-util-find-before')
-var patterns = require('./list')
+var patterns = require('./list.json')
 
 module.exports = passive
 
